@@ -1,1 +1,23 @@
-<p>review-page works!</p>
+<body class="container">
+  <!--header/layout-->
+  <app-layout></app-layout>
+
+  <!--contendedor de titulo y titulo-->
+  <div class="titleContainer">
+    <label class="title">{{titulo}}</label>
+  </div>
+
+  <!--contenedor de inputs-->
+  <div class="inputContainer">
+    <p><input class="userNameInput" type="text" placeholder="NOMBRE DE USUARIO"></p>
+    <p>
+      <input class="gameNameInput" type="text" placeholder="TITULO DEL JUEGO">
+      <input class="userRatingInput" type="text" placeholder="CALIFICAR">
+    </p>
+    <p><input class="descriptionInput" type="password"  placeholder="DESCRIPCIÓN"></p>
+
+    <p><input class="submitButton" type="submit" value="Submit"></p>
+  </div>
+
+</body>
+

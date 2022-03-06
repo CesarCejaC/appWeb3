@@ -1,0 +1,41 @@
+.container{
+  background-color: blueviolet;
+  text-align: center;
+}
+.titleContainer{
+  margin-top: 70px;
+}
+.title{
+  color: white;
+  font-weight: bold;
+}
+.inputContainer{
+  background-color: darkmagenta;
+  width: 60%;
+  height: auto;
+  text-align: center;
+  margin: auto;
+  border-radius: 10px;
+}
+.userNameInput{
+  width: 80%;
+  margin-top: 10px;
+  border-radius: 5px;
+}
+.gameNameInput{
+  border-radius: 5px;
+  width: 53%;
+}
+.userRatingInput{
+  border-radius: 5px;
+  width: 25%;
+}
+.descriptionInput{
+  width: 80%;
+  border-radius: 5px;
+}
+.submitButton{
+  color: white;
+  background-color: cornflowerblue;
+  border-radius: 5px;
+}

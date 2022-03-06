@@ -1,0 +1,35 @@
+/* header */
+.header{
+  background-color: rgb(63, 62, 62);
+  height: 100px;
+  width: auto;
+
+}
+/* titulo epicardogames.com */
+.title{
+  color: white;
+  font-size: 100%;
+  font-weight: lighter;
+}
+.titleContainer{
+  position: absolute;
+  top: 65px;
+  left: 20px;
+  height: 100px;
+  width: auto;
+}
+/* logotipo de epicardogames */
+.epicardoLogo{
+  width: auto;
+  height: 80%;
+  border-radius: 50%;
+  margin-top: 10px;
+  /* sirven para centrar horizontalmente
+  display: block;
+  margin: auto; */
+}
+/* contenedor del logotipo */
+.epicardoLogoContainer{
+  height: 100px;
+  text-align: center;
+}
