@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import {Noticia} from "../../models/Noticia";
 
 @Component({
   selector: 'app-home-page',
@@ -7,9 +8,33 @@ import { Component, OnInit } from '@angular/core';
 })
 export class HomePageComponent implements OnInit {
 
+  noticias: Noticia[] = [];
+
   constructor() { }
 
   ngOnInit(): void {
+    this.noticias = [
+      {
+        img: '',
+        title: '¿GTA 6 en desarrollo?',
+        description: 'Sample text. Click to select the text box. Click again or double click to start editing the text.'
+      },
+      {
+        img: '',
+        title: 'Dead Space Remake',
+        description: 'Sample text. Click to select the text box. Click again or double click to start editing the text.'
+      },
+      {
+        img: '',
+        title: 'Genshin Impact',
+        description: 'Sample text. Click to select the text box. Click again or double click to start editing the text.'
+      },
+      {
+        img: '',
+        title: 'Elden Ring',
+        description: 'Sample text. Click to select the text box. Click again or double click to start editing the text.'
+      }
+    ];
   }
 
 }

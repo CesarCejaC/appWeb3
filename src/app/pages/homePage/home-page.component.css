@@ -1,9 +1,18 @@
 /*Contenedor de toda la pagina*/
 .container{
   background-color: blueviolet;
-  height: auto;
+  height: 600px;
   width: auto;
 }
 .contentContainer{
+
+}
+.noticias{
+  background-color: white;
+  border-radius: 5px;
+  height: 50px;
+  width: 200px;
+  margin-top: 25px;
+  margin-left: 25px;
 
 }

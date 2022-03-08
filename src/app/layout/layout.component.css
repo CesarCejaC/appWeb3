@@ -13,10 +13,8 @@
 }
 .titleContainer{
   position: absolute;
-  top: 65px;
-  left: 20px;
-  height: 100px;
-  width: auto;
+  top: 35px;
+  left: 40px;
 }
 /* logotipo de epicardogames */
 .epicardoLogo{
@@ -32,4 +30,7 @@
 .epicardoLogoContainer{
   height: 100px;
   text-align: center;
+}
+.navigationMenu{
+  align-content: end;
 }

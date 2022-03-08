@@ -2,14 +2,13 @@
 <body class="container">
   <!--header/layout-->
   <app-layout></app-layout>
-  <div class="contentContainer">
-    <p>aqui</p>
-    <p>iran</p>
-    <p>las</p>
-    <p>noticias</p>
-    <p>de</p>
-    <p>juegos</p>
+
+  <div>
+    <div class="noticias" *ngFor="let noticia of noticias">
+            {{noticia.img}} {{noticia.title}}
+    </div>
   </div>
+
 
 </body>
 
