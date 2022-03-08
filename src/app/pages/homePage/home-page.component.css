@@ -5,6 +5,8 @@
   width: auto;
 }
 .contentContainer{
+  display: flex;
+  justify-content: space-between;
 
 }
 .noticias{
@@ -12,7 +14,9 @@
   border-radius: 5px;
   height: 50px;
   width: 200px;
-  margin-top: 25px;
-  margin-left: 25px;
-
+  margin-left: 10px;
+  margin-right: 10px;
+  text-align: center;
+  margin-top: 30px;
 }
+
