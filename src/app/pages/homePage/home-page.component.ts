@@ -16,7 +16,7 @@ export class HomePageComponent implements OnInit {
     this.noticias = [
       {
         img: '',
-        title: '¿GTA 6 en desarrollo?',
+        title: 'GTA 6 en desarrollo',
         description: 'Sample text. Click to select the text box. Click again or double click to start editing the text.'
       },
       {

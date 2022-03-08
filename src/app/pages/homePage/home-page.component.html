@@ -5,7 +5,10 @@
 
   <div class="contentContainer">
     <div class="noticias" *ngFor="let noticia of noticias">
-            {{noticia.img}} {{noticia.title}}
+      <img class="imagen" src="../../../assets/images/{{noticia.title}}.jpg" alt="{{noticia.title}}">
+      <p>{{noticia.img}}</p>
+      <p>{{noticia.title}}</p>
+      <p>{{noticia.description}}</p>
     </div>
   </div>
 
