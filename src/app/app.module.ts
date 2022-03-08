@@ -7,6 +7,9 @@ import { CommunityPageComponent } from './pages/communityPage/community-page.com
 import { ReviewPageComponent } from './pages/reviewPage/review-page.component';
 import { LayoutComponent } from './layout/layout.component';
 import { LoginPageComponent } from './routes/login/login-page.component';
+import {MatFormFieldModule} from '@angular/material/form-field';
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
+import {MatListModule} from "@angular/material/list";
 
 @NgModule({
   declarations: [
@@ -15,10 +18,14 @@ import { LoginPageComponent } from './routes/login/login-page.component';
     CommunityPageComponent,
     ReviewPageComponent,
     LayoutComponent,
-    LoginPageComponent
+    LoginPageComponent,
+
   ],
   imports: [
-    BrowserModule
+    BrowserModule,
+    MatFormFieldModule,
+    BrowserAnimationsModule,
+    MatListModule
   ],
   providers: [],
   bootstrap: [AppComponent]

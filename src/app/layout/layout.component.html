@@ -6,11 +6,19 @@
     <img class="epicardoLogo" src="../../assets/images/epicardoLogo.jpeg" alt="">
 
     <!--Menu de navegacion-->
-    <ul class="menu_items">
-      <li><a href="#">Home</a></li>
-      <li><a href="#">Review</a></li>
-      <li><a href="#">Community</a></li>
-      <li><a href="#">Login</a></li>
-    </ul>
+  <mat-nav-list>
+    <a class="home" href="home-page.component.html" style="padding: 10px 20px; width:100px; height:100px"
+       onMouseover="this.style.color='#ff6961'" onMouseout="this.style.color='white'">Home</a>
+
+    <a class="community" href="community-page.component.html" style="padding: 10px 20px; width:100px; height:100px"
+       onMouseover="this.style.color='#ff6961'" onMouseout="this.style.color='white'">Comunidad</a>
+
+    <a class="review" href="review-page.component.html" style="padding: 10px 20px; width:100px; height:100px"
+       onMouseover="this.style.color='#ff6961'" onMouseout="this.style.color='white'">Puntuar</a>
+
+    <a class="login" href="login-page.component.html" style="padding: 10px 20px; width:100px; height:100px"
+       onMouseover="this.style.color='#ff6961'" onMouseout="this.style.color='white'" >Login</a>
+
+  </mat-nav-list>
 
 </div>

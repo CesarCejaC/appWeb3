@@ -4,20 +4,19 @@
 
   <!--contendedor de titulo y titulo-->
   <div class="titleContainer">
-    <label class="title">{{titulo}}</label>
+    <label class="title"><h1>{{titulo}}</h1></label>
   </div>
-
   <!--contenedor de inputs-->
-  <div class="inputContainer">
+  <mat-form-field style="justify-content: center" appearance="fill">
+
     <p><input class="userNameInput" type="text" placeholder="NOMBRE DE USUARIO"></p>
-    <p>
-      <input class="gameNameInput" type="text" placeholder="TITULO DEL JUEGO">
-      <input class="userRatingInput" type="text" placeholder="CALIFICAR">
-    </p>
-    <p><input class="descriptionInput" type="password"  placeholder="DESCRIPCIÓN"></p>
+    <p><input class="gameNameInput" type="text" placeholder="TITULO DEL JUEGO">
+    <input class="userRatingInput" type="text" placeholder="CALIFICAR"> </p>
+
+      <textarea class="descripción"></textarea>
+    </mat-form-field>
 
     <p><input class="submitButton" type="submit" value="Submit"></p>
-  </div>
 
 </body>
 

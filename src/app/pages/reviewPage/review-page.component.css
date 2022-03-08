@@ -1,5 +1,5 @@
 .container{
-  background-color: blueviolet;
+  background-color: #542a85;
   text-align: center;
 }
 .titleContainer{
@@ -9,33 +9,62 @@
   color: white;
   font-weight: bold;
 }
-.inputContainer{
-  background-color: darkmagenta;
-  width: 60%;
-  height: auto;
-  text-align: center;
-  margin: auto;
-  border-radius: 10px;
-}
+
+
+  .mat-form-field {
+    justify-content: center;
+    background-color: #79369a;
+    width: 80%;
+    height: auto;
+    text-align: center;
+    border-radius: 10px;
+    margin-top: 10px;
+  }
+
+
+
 .userNameInput{
-  width: 80%;
-  margin-top: 10px;
-  border-radius: 5px;
+  border-radius: 8px;
+  margin-top: 8px;
+  width: 90%;
+  height: 35px;
 }
 .gameNameInput{
-  border-radius: 5px;
-  width: 53%;
+  width: 42%;
+  border-radius: 8px;
+  margin-top: 8px;
+  height: 35px;
 }
 .userRatingInput{
-  border-radius: 5px;
-  width: 25%;
+  width: 42%;
+  border-radius: 8px;
+  margin-top: 8px;
+  height: 35px;
 }
 .descriptionInput{
-  width: 80%;
-  border-radius: 5px;
+  justify-items: center;
+  justify-self: center;
+  border-radius: 8px;
+  margin-top: 8px;
+
 }
+
+.mat-form-field  .descripción{
+  justify-items: center;
+  justify-self: center;
+  border-radius: 8px;
+  margin-top: 8px;
+  width: 90%;
+  height: 100px;
+
+}
+
 .submitButton{
+  width: 20%;
+  height: 30px;
+  margin-top: 10px;
+  margin-bottom: 10px;
   color: white;
   background-color: cornflowerblue;
-  border-radius: 5px;
+  border-radius: 8px;
 }

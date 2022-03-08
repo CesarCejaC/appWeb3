@@ -1,5 +1,5 @@
 .container{
-  background-color: blueviolet;
+  background-color: #542a85;
   text-align: center;
 }
 .titleContainer{
@@ -10,19 +10,25 @@
   font-weight: bold;
 }
 .inputContainer{
-  background-color: darkmagenta;
+  background-color: #79369a;
   width: 50%;
   height: auto;
   text-align: center;
   margin: auto;
+
   border-radius: 10px;
 }
 .emailInput{
+  border-radius: 8px;
   margin-top: 10px;
   width: 90%;
+  height: 30px;
 }
 .passwordInput{
+
+  border-radius: 8px;
   width: 90%;
+  height: 30px;
 }
 .submitButton{
   color: white;

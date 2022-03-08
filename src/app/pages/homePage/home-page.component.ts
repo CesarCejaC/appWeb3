@@ -34,6 +34,7 @@ export class HomePageComponent implements OnInit {
         title: 'Elden Ring',
         description: 'Sample text. Click to select the text box. Click again or double click to start editing the text.'
       }
+
     ];
   }
 
