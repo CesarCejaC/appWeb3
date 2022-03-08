@@ -9,20 +9,15 @@
   color: white;
   font-weight: bold;
 }
-
-
-  .mat-form-field {
-    justify-content: center;
-    background-color: #79369a;
-    width: 80%;
-    height: auto;
-    text-align: center;
-    border-radius: 10px;
-    margin-top: 10px;
-  }
-
-
-
+.mat-form-field {
+  justify-content: center;
+  background-color: #79369a;
+  width: 80%;
+  height: auto;
+  text-align: center;
+  border-radius: 10px;
+  margin-top: 10px;
+}
 .userNameInput{
   border-radius: 8px;
   margin-top: 8px;
@@ -30,7 +25,7 @@
   height: 35px;
 }
 .gameNameInput{
-  width: 42%;
+  width: 47%;
   border-radius: 8px;
   margin-top: 8px;
   height: 35px;
@@ -48,17 +43,14 @@
   margin-top: 8px;
 
 }
-
-.mat-form-field  .descripción{
+.mat-form-field  .descripcion{
   justify-items: center;
   justify-self: center;
   border-radius: 8px;
   margin-top: 8px;
   width: 90%;
   height: 100px;
-
 }
-
 .submitButton{
   width: 20%;
   height: 30px;
