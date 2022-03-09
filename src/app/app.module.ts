@@ -10,6 +10,9 @@ import { LoginPageComponent } from './routes/login/login-page.component';
 import {MatFormFieldModule} from '@angular/material/form-field';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import {MatListModule} from "@angular/material/list";
+import {MatIconModule} from "@angular/material/icon";
+import { AppRoutingModule } from './app-routing.module';
+import {RouterModule} from "@angular/router";
 
 @NgModule({
   declarations: [
@@ -25,7 +28,10 @@ import {MatListModule} from "@angular/material/list";
     BrowserModule,
     MatFormFieldModule,
     BrowserAnimationsModule,
-    MatListModule
+    MatListModule,
+    MatIconModule,
+    AppRoutingModule,
+    RouterModule
   ],
   providers: [],
   bootstrap: [AppComponent]

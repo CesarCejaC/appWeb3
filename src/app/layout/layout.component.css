@@ -9,6 +9,7 @@
   }
   /* titulo epicardogames.com */
   .title{
+    margin-left: 30px;
     color: white;
     font-size: 100%;
     font-weight: lighter;
@@ -18,6 +19,7 @@
     width: auto;
     height: 80%;
     border-radius: 50%;
+    lign-content: center;
   }
   .menuItems{
     display: flex;
@@ -26,10 +28,12 @@
   .items{
 
   }
+  mat-icon{
+    display: none;
+  }
   .button {
     box-shadow: inset 0px 1px 0px 0px #ffffff;
-    background: linear-gradient(to bottom, #ffffff 5%, #f6f6f6 100%);
-    background-color: #ffffff;
+    background: #ffffff linear-gradient(to bottom, #ffffff 5%, #f6f6f6 100%);
     border-radius: 6px;
     border: 1px solid #dcdcdc;
     display: inline-block;
@@ -45,8 +49,7 @@
   }
   .activebutton {
     box-shadow: inset 0px 1px 0px 0px #dcecfb;
-    background: linear-gradient(to bottom, #bddbfa 5%, #80b5ea 100%);
-    background-color: #bddbfa;
+    background: #bddbfa linear-gradient(to bottom, #bddbfa 5%, #80b5ea 100%);
     border-radius: 6px;
     border: 1px solid #84bbf3;
     display: inline-block;
@@ -72,4 +75,29 @@
   .mat-nav-list .login{
     color: white;
 
+  }
+
+  @media screen and (max-width: 900px) {
+    .menu{
+      height: 75px;
+      width: 100vw;
+
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+    .epicardoLogo{
+      width: auto;
+      height: 80%;
+      align-content: center;
+      border-radius: 50%;
+    }
+    mat-icon{
+      display: inline;
+      margin-right: 30px;
+      color: white;
+    }
+    mat-nav-list{
+      display: none;
+    }
   }
