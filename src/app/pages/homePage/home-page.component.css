@@ -1,7 +1,7 @@
 /*Contenedor de toda la pagina*/
 .container{
   background-color: blueviolet;
-  height: 600vw ;
+  height: 600px ;
   width: 100vw;
 }
 
@@ -31,6 +31,9 @@
 }
 
 @media screen and (max-width: 800px){
+  .container{
+    height: auto;
+  }
   .contentContainer{
     display: grid;
     justify-content: center;
