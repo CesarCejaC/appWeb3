@@ -10,6 +10,7 @@ export class CommunityPageComponent implements OnInit {
   constructor() { }
 
   ngOnInit(): void {
+
   }
 
 }

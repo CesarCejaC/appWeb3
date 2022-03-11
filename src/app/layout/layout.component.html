@@ -7,19 +7,21 @@
 
     <!--Menu de navegacion-->
   <mat-nav-list>
-    <a class="home" href="home-page.component.html" style="padding: 10px 20px; width:100px; height:100px"
+    <a class="home" routerLink="history" style="padding: 10px 20px; width:100px; height:100px"
        onMouseover="this.style.color='#ff6961'" onMouseout="this.style.color='white'">Home</a>
 
-    <a class="community" href="community-page.component.html" style="padding: 10px 20px; width:100px; height:100px"
+    <a class="community" routerLink="history/communityPage" style="padding: 10px 20px; width:100px; height:100px"
        onMouseover="this.style.color='#ff6961'" onMouseout="this.style.color='white'">Comunidad</a>
 
-    <a class="review" href="review-page.component.html" style="padding: 10px 20px; width:100px; height:100px"
+    <a class="review" routerLink="history/reviewPage" style="padding: 10px 20px; width:100px; height:100px"
        onMouseover="this.style.color='#ff6961'" onMouseout="this.style.color='white'">Puntuar</a>
 
-    <a class="login" href="login-page.component.html" style="padding: 10px 20px; width:100px; height:100px"
+    <a class="login" routerLink="history/loginPage" style="padding: 10px 20px; width:100px; height:100px"
        onMouseover="this.style.color='#ff6961'" onMouseout="this.style.color='white'" >Login</a>
 
   </mat-nav-list>
   <mat-icon>menu</mat-icon>
 
 </div>
+<router-outlet></router-outlet>
+<!--<app-footer>aqui haremos el footer</app-footer>-->

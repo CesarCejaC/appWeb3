@@ -1,12 +1,20 @@
 import { NgModule } from '@angular/core';
-import { CommonModule } from '@angular/common';
-
+import { RouterModule} from "@angular/router";
+import {LoginPageModule} from "./login/login-page.module";
+import {routes} from "./routes";
 
 
 @NgModule({
+  imports: [RouterModule.forRoot(routes, {
+    useHash: true
+  }),
+    LoginPageModule
+  ],
   declarations: [],
-  imports: [
-    CommonModule
-  ]
+  exports: [RouterModule],
+  entryComponents: []
 })
-export class RoutesModule { }
+export class RoutesModule {
+  constructor() {
+  }
+}

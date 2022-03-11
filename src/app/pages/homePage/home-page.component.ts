@@ -1,5 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import {Noticia} from "../../models/Noticia";
+import {Router} from "@angular/router";
 
 @Component({
   selector: 'app-home-page',
@@ -10,9 +11,12 @@ export class HomePageComponent implements OnInit {
 
   noticias: Noticia[] = [];
 
-  constructor() { }
+  constructor(private router: Router) { }
 
   ngOnInit(): void {
+
+    this.router.navigate(['/history'])
+
     this.noticias = [
       {
         img: '',
