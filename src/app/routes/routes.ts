@@ -10,9 +10,9 @@ export const routes = [
     component: LayoutComponent,
     children:[
       {path:'', component: HomePageComponent},
-      {path:'history/communityPage', component: CommunityPageComponent},
-      {path:'history/reviewPage', component: ReviewPageComponent},
-      {path:'history/loginPage', component: LoginPageComponent},
+      {path:'communityPage', component: CommunityPageComponent},
+      {path:'reviewPage', component: ReviewPageComponent},
+      {path:'loginPage', component: LoginPageComponent},
       {path:'history', component: HomePageComponent},
     ]
   },
