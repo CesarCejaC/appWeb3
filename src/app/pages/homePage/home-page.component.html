@@ -2,9 +2,10 @@
   <div class="contentContainer">
     <div class="noticias" *ngFor="let noticia of noticias">
       <img class="imagen" src="../../../assets/images/{{noticia.title}}.jpg" alt="{{noticia.title}}">
-      <p>{{noticia.img}}</p>
-      <p>{{noticia.title}}</p>
-      <p>{{noticia.description}}</p>
+      <p class="noticiaTitle">{{noticia.title}}</p>
+      <p class="noticiaDes">{{noticia.description}}</p>
+      <a href="{{noticia.button}}" target="_blank">Leer más</a>
+
     </div>
   </div>
 </body>

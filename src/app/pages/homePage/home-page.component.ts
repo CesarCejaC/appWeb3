@@ -19,24 +19,28 @@ export class HomePageComponent implements OnInit {
 
     this.noticias = [
       {
-        img: '',
+
         title: 'GTA 6 en desarrollo',
-        description: 'Sample text. Click to select the text box. Click again or double click to start editing the text.'
+        description: '\'GTA 6\' está en desarrollo: Rockstar confirma la nueva entrega de una de las franquicias más exitosas de la historia de los videojuegos.',
+        button: 'https://www.xataka.com.mx/videojuegos/gta-6-esta-desarrollo-rockstar-confirma-nueva-entrega-franquicias-exitosas-historia-videojuegos'
       },
       {
-        img: '',
+
         title: 'Dead Space Remake',
-        description: 'Sample text. Click to select the text box. Click again or double click to start editing the text.'
+        description: 'Dead Space Remake: todo lo que sabemos hasta ahora del terrorífico retorno al USG Ishimura.',
+        button: 'https://www.vidaextra.com/juegos-nuevos/dead-space-remake-para-ps5-xbox-series-x-s-pc-fecha-lanzamiento-ultimas-noticias-rumores'
       },
       {
-        img: '',
+
         title: 'Genshin Impact',
-        description: 'Sample text. Click to select the text box. Click again or double click to start editing the text.'
+        description: 'Es un juego de acción ARPG de mundo abierto free-to-play con una mecánica de monetización de Gacha para conseguir elementos adicionales como personajes especiales y armas.',
+        button: 'https://genshin.hoyoverse.com/es/home'
       },
       {
-        img: '',
+
         title: 'Elden Ring',
-        description: 'Sample text. Click to select the text box. Click again or double click to start editing the text.'
+        description: 'Álzate, Sinluz, y que la gracia te guíe para abrazar el poder del Círculo de Elden y encumbrarte como señor del Círculo en las Tierras Intermedias.',
+        button: 'https://es.bandainamcoent.eu/elden-ring/elden-ring'
       }
 
     ];

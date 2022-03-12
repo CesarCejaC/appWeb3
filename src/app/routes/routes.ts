@@ -4,7 +4,7 @@ import {LoginPageComponent} from "./login/login-page.component";
 import {CommunityPageComponent} from "../pages/communityPage/community-page.component";
 import {ReviewPageComponent} from "../pages/reviewPage/review-page.component";
 export const routes = [
-  {path:'', component: LayoutComponent, children:[{path:'', component: LoginPageComponent}]},
+  {path:'', component: LoginPageComponent},
   {
     path: 'history',
     component: LayoutComponent,
@@ -12,12 +12,11 @@ export const routes = [
       {path:'', component: HomePageComponent},
       {path:'communityPage', component: CommunityPageComponent},
       {path:'reviewPage', component: ReviewPageComponent},
-      {path:'loginPage', component: LoginPageComponent},
       {path:'history', component: HomePageComponent},
     ]
   },
   //not lazy load components
   {path: 'history/loginPage', component: LoginPageComponent},
-  {path: 'history', redirectTo: 'home'},
+  {path: 'history/loginPage/history', component: HomePageComponent},
 
 ];
