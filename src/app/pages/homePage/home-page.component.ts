@@ -1,6 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 import {Noticia} from "../../models/Noticia";
 import {Router} from "@angular/router";
+import { api } from 'src/environments/api';
 
 @Component({
   selector: 'app-home-page',
@@ -11,7 +12,7 @@ export class HomePageComponent implements OnInit {
 
   noticias: Noticia[] = [];
 
-  constructor(private router: Router) { }
+  constructor(private router: Router, private apiz:api) { }
 
   ngOnInit(): void {
 
@@ -45,5 +46,7 @@ export class HomePageComponent implements OnInit {
 
     ];
   }
+
+
 
 }
