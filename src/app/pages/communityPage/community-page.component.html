@@ -1,16 +1,8 @@
 <body class="container">
-  <div>
-    <p>aqui</p>
-    <p>iran</p>
-    <p>las</p>
-    <p>reseñas</p>
-    <p>de</p>
-    <p>juegos</p>
-    <p>sacadas</p>
-    <p>de</p>
-    <p>la</p>
-    <p>base</p>
-    <p>de</p>
-    <p>datos</p>
-  </div>
+    <div class="resenias" *ngFor="let resenia of reviews | async">
+      <h3>Autor: {{resenia.nombre_usuario}}</h3>
+      <h3> Juego:{{resenia.nombre_juego}}</h3>
+      <h3>Calificación {{resenia.calificacion}}</h3>
+      <h3>Cometnario: {{resenia.descripcion}}</h3>
+    </div>
 </body>

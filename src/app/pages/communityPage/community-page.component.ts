@@ -1,6 +1,9 @@
 import { Component, OnInit } from '@angular/core';
 import { Reviews } from 'src/app/models/Reviews';
 import { HttpClientService } from '../../service/httpsClientService';
+import { Observable } from "rxjs";
+
+import { service } from '../../service/service'
 
 @Component({
   selector: 'app-community-page',
@@ -8,18 +11,25 @@ import { HttpClientService } from '../../service/httpsClientService';
   styleUrls: ['./community-page.component.css'],
 })
 export class CommunityPageComponent implements OnInit {
-  reviews = Reviews;
+  //reviews= Reviews;
+  reviews: any;
 
-  constructor() {}
   //constructor(private httpClientService: HttpClientService) { }
+  constructor(private http: service) {
+  }
 
-  ngOnInit(): void {}
+  ngOnInit(): void {
+    this.reviews = this.http.getReviews();
+  }
 
-  // getReviews(){
-  //   this.httpClientService.getReviews(data => {
-  //     kjsvijbviv,
-  //     (error =>{
-  //       console.log(error);
-  //     })
-  // });
+
+   //getReviews():void{
+     //this.httpClientService.getReviews().subscribe(response=>{
+        //this.httpClientService.push(...this.httpClientService)
+      // }
+
+     //,error => {
+      // console.log(error)
+     //});
+  //}
 }
