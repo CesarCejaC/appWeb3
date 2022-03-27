@@ -1,4 +1,6 @@
 import { Component, OnInit } from '@angular/core';
+import { HttpClientService } from "../../service/httpsClientService";
+import {Reviews} from "../../models/Reviews";
 
 @Component({
   selector: 'app-review-page',
@@ -6,11 +8,11 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./review-page.component.css']
 })
 export class ReviewPageComponent implements OnInit {
-
+  reviews: any;
 
   titulo="Puntuar"
 
-  constructor() { }
+  constructor(private http:HttpClientService) { }
 
   ngOnInit(): void {
   }

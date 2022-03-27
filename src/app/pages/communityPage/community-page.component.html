@@ -1,7 +1,8 @@
 <body class="container">
     <div class="resenias" *ngFor="let resenia of reviews | async">
+      <h2> Juego:{{resenia.nombre_juego}}</h2>
       <h3>Autor: {{resenia.nombre_usuario}}</h3>
-      <h3> Juego:{{resenia.nombre_juego}}</h3>
+
       <h3>Calificación {{resenia.calificacion}}</h3>
       <h3>Cometnario: {{resenia.descripcion}}</h3>
     </div>

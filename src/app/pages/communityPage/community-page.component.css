@@ -2,7 +2,9 @@
   background-color: #542a85;
   justify-content: center;
 }
-
+h2{
+  font-weight: bold;
+}
 .resenias{
   margin-top: 20px;
   background-color: white;

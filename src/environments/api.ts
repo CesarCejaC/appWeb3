@@ -7,5 +7,5 @@ import { Injectable } from "@angular/core";
 })
 export class api {
 
-    static API_SERVER = "http:localhost:8081/api/v1/";
+    static API_SERVER = "http://localhost:8081/api/v1/";
 }

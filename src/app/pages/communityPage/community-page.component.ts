@@ -3,7 +3,7 @@ import { Reviews } from 'src/app/models/Reviews';
 import { HttpClientService } from '../../service/httpsClientService';
 import { Observable } from "rxjs";
 
-import { service } from '../../service/service'
+//import { service } from '../../service/service'
 
 @Component({
   selector: 'app-community-page',
@@ -15,7 +15,7 @@ export class CommunityPageComponent implements OnInit {
   reviews: any;
 
   //constructor(private httpClientService: HttpClientService) { }
-  constructor(private http: service) {
+  constructor(private http: HttpClientService) {
   }
 
   ngOnInit(): void {

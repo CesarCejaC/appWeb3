@@ -13,8 +13,8 @@ export class HttpClientService{
     constructor(private service: HttpClient){
 
     }
-//: Observable<any>
-    public getReviews() {
+
+    public getReviews(): Observable<any> {
         return this.service.get(api.API_SERVER + "getReviews")
     }
 
