@@ -1,5 +1,3 @@
-//API_SERVER = "http:localhost:8081/api/v1/"
-
 import { Injectable } from "@angular/core";
 
 @Injectable({

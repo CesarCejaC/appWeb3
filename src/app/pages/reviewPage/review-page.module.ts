@@ -3,6 +3,7 @@ import { CommonModule } from '@angular/common';
 import {ReviewPageComponent} from "./review-page.component";
 import {RouterModule} from "@angular/router";
 import {MatFormFieldModule} from "@angular/material/form-field";
+import { FormGroup, FormsModule, ReactiveFormsModule } from '@angular/forms';
 
 
 
@@ -11,7 +12,10 @@ import {MatFormFieldModule} from "@angular/material/form-field";
   imports: [
     CommonModule,
     MatFormFieldModule,
-    RouterModule
+    RouterModule,
+    
+    FormsModule,
+    ReactiveFormsModule,
   ]
 })
 export class ReviewPageModule { }
