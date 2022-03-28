@@ -42,6 +42,31 @@ export class HomePageComponent implements OnInit {
         title: 'Elden Ring',
         description: 'Álzate, Sinluz, y que la gracia te guíe para abrazar el poder del Círculo de Elden y encumbrarte como señor del Círculo en las Tierras Intermedias.',
         button: 'https://es.bandainamcoent.eu/elden-ring/elden-ring'
+      },
+
+      {
+
+        title: 'Fortnite',
+        description: 'Fortnite es un juego online de disparos (lo que se conoce como un shooter) en tercera persona (es decir; que ves a tu personaje según se mueve). Tiene dos modos de juego: Salvar al mundo y Battle Royale. Salvar al mundo es un mundo abierto que puede jugarse solo o online con amigos y es cooperativo.',
+        button: 'https://www.epicgames.com/fortnite/es-ES/home'
+      },
+      {
+
+        title: 'Halo Infinite',
+        description: 'Halo Infinite es un videojuego de disparos en primera persona de la franquicia de videojuegos de ciencia ficción creada por Bungie Studios y actualmente desarrollada por 343 Industries.',
+        button: 'https://www.xbox.com/es-MX/games/halo-infinite'
+      },
+      {
+
+        title: 'Forza Horizon 5',
+        description: 'Forza Horizon 5 es un videojuego de carreras multijugador en linea desarrollado por Playground Games y publicado por Xbox Game Studios.',
+        button: 'https://www.xbox.com/es-MX/games/forza-horizon-5'
+      },
+      {
+
+        title: 'DOOM Eternal',
+        description: 'Doom Eternal es un videojuego de acción y disparos en primera persona desarrollado por id Software y publicado por Bethesda Softworks.',
+        button: 'https://bethesda.net/es/game/doom'
       }
 
     ];
