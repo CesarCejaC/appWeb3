@@ -17,7 +17,7 @@
 }
 .userNameInput{
   border-radius: 8px;
-  margin-top: 8px;
+  margin-top: 25px;
   width: 90%;
   height: 35px;
 }
@@ -40,13 +40,15 @@
   margin-top: 8px;
 
 }
-.mat-form-field  .descripcion{
+.formulario{
   justify-items: center;
-  justify-self: center;
+  text-align: center;
   border-radius: 8px;
   margin-top: 8px;
   width: 90%;
-  height: 100px;
+  height: 28%;
+  background-color: #880fc4;
+  margin-left: 5%;
 }
 .submitButton{
   width: 20%;

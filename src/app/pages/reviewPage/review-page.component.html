@@ -3,22 +3,27 @@
   <div class="titleContainer">
     <label class="title"><h1>{{titulo}}</h1></label>
   </div>
+<div class="formulario">
+  <form  [formGroup]="reviews" (ngSubmit)="send()" novalidate
+        style="justify-content: center" appearance="fill"
+  >
 
-  <form [formGroup]="reviews" (ngSubmit)="send()" novalidate>
+    <!--     <mat-form-field style="justify-content: center" appearance="fill">-->
 
-    <!-- <mat-form-field style="justify-content: center" appearance="fill"> -->
-
-      <p><input formControlName="nombre_usuario" class="userNameInput" type="text" placeholder="NOMBRE DE USUARIO"></p>
-      <p><input formControlName="nombre_juego" class="gameNameInput" type="text" placeholder="TITULO DEL JUEGO">
+    <p><input formControlName="nombre_usuario" class="userNameInput" type="text" placeholder="NOMBRE DE USUARIO"></p>
+    <p><input formControlName="nombre_juego" class="gameNameInput" type="text" placeholder="TITULO DEL JUEGO">
       <input formControlName="calificacion" class="userRatingInput" min="0" max="10" type="number" placeholder="CALIFICAR"> </p>
-      <textarea formControlName="descripcion" placeholder="DESCRIPCIÓN" class="descripcion"></textarea>
-      <p><input class="submitButton" type="submit" value="Submit"></p>
+    <textarea formControlName="descripcion" placeholder="DESCRIPCIÓN" class="descripcion"></textarea>
+    <p><input class="submitButton" type="submit" value="Submit"></p>
 
-    <!-- </mat-form-field> -->
+    <!--    </mat-form-field>-->
 
   </form>
-  
-  
+</div>
+
+
+
+
 
 
 </body>
