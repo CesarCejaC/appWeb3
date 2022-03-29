@@ -1,6 +1,11 @@
 .container{
   background-color: #542a85;
-  justify-content: center;
+  display: grid;
+  justify-items: center;
+  grid-template-columns: auto ;
+  padding: 10px;
+
+
 }
 h2{
   font-weight: bold;
@@ -10,5 +15,6 @@ h2{
   background-color: white;
   width: 90%;
   border-radius: 5px;
+  padding-left: 20px;
 
 }
