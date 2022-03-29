@@ -21,7 +21,7 @@ export class ReviewPageComponent implements OnInit {
       nombre_juego:[''],
       calificacion:[''],
       descripcion:[''],
-    }) 
+    })
   }
 
   send(){
